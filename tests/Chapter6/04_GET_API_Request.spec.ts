@@ -7,6 +7,7 @@ import { faker } from "@faker-js/faker";
 
 test.use({
     baseURL: process.env.BASE_API_URL,
+    //steps
 })
 
 
