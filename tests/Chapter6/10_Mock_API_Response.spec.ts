@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test"
 test("Mock API Response in Playwright", async ({ page }) => {
-    //Mock API Response
+    //Mock API Response testing 
     await page.route('*/**/api/v1/fruits', async route => {
         const response=await route.fetch();
       const  json=await response.json();
